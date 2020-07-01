@@ -121,6 +121,10 @@ button:focus,
   color: #2b2b2b;
 }
 
+.links {
+  text-align: left;
+}
+
 .profile__portrait {
   float: left;
   width: 250px;
@@ -341,6 +345,9 @@ svg {
   }
   svg {
     height: 200px;
+  }
+  a, button, .button {
+    display: block;
   }
 }
 
