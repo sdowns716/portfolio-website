@@ -28,13 +28,17 @@ body {
   text-align: center;
 
   /* Sets the font size to 16px */
-  line-height: 1.6;
+  line-height: 2.4;
 
   /* Sets the line-height to 1.6 */
 }
 
 head {
   border-bottom: 1px solid gray;
+}
+
+hr {
+  margin-bottom: 45px;
 }
 
 h1 {
@@ -128,6 +132,9 @@ button:focus,
   display: flex;
   flex-direction: column;
   text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 .profile {
