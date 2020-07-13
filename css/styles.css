@@ -140,6 +140,7 @@ button:focus,
 .profile {
   max-width: 700px;
   margin: 0 auto;
+  padding: 50px;
   text-align: justify;
 }
 
@@ -185,7 +186,8 @@ button:focus,
 }
 
 .navigation-list__item--active {
-  text-shadow: 0 0 1px black;
+  color: black;
+  font-weight: bolder;
 }
 
 /* Grid fallback */
@@ -206,7 +208,7 @@ button:focus,
 
 .grid__item {
   background-color: var(--grid-color);
-  padding: 10px;
+  padding: 30px 20px;
 
   /* Set width to auto */
   width: auto;
