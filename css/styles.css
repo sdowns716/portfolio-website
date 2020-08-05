@@ -159,6 +159,11 @@ p {
   text-align: center;
 }
 
+.paragraph {
+  width: 100%;
+  text-align: center;
+}
+
 .background-info {
   width: 50%;
   margin: 0 auto;
@@ -166,6 +171,11 @@ p {
 
 * {
   box-sizing: border-box;
+}
+
+input {
+  padding: 5px;
+  border-radius: 10px;
 }
 
 .page-header {
