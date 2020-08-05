@@ -210,7 +210,7 @@ p {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
-  margin: 10px;
+  margin: 10px 40px;
 }
 
 .grid__item {
@@ -219,57 +219,7 @@ p {
 
   /* Set width to auto */
   width: auto;
-}
-
-svg {
-  height: 500px;
-}
-
-/* Keyframes */
-@keyframes color-change {
-  0% {
-    fill: #edc655;
-  }
-
-  50% {
-    fill: #fcffad;
-  }
-
-  100% {
-    fill: #f76414;
-  }
-}
-
-.sun {
-  animation: 4s color-change infinite alternate linear;
-}
-
-@keyframes cloud-move {
-  from {
-    transform: translate(0, 50px);
-  }
-
-  to {
-    transform: translate(200px, 50px);
-  }
-}
-
-.cloud-front {
-  animation: 30s cloud-move infinite alternate linear;
-}
-
-@keyframes cloud-move-reverse {
-  from {
-    transform: translate(446px, 48px);
-  }
-
-  to {
-    transform: translate(100px, 48px);
-  }
-}
-
-.cloud-back {
-  animation: 34s cloud-move-reverse infinite alternate linear;
+  text-align: center;
 }
 
 /* Responsive design */
@@ -290,10 +240,10 @@ svg {
   .grid {
     grid-gap: 10px;
   }
-  svg {
-    height: 200px;
-  }
-  a, button, .button {
+
+  a,
+  button,
+  .button {
     display: block;
   }
 }
@@ -305,5 +255,5 @@ svg {
 
 h1 {
   font-size: 22px;
-  text-align:center;
+  text-align: center;
 }
