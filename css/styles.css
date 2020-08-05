@@ -153,8 +153,15 @@ button:focus,
   margin: 0 auto;
 }
 
+p {
+  width: 50%;
+  margin: 0 auto 40px;
+  text-align: justify;
+}
+
 .background-info {
-  text-align: center;
+  width: 50%;
+  margin: 0 auto;
 }
 
 * {
